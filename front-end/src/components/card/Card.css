@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+
+.card {
+  width: 380px;
+  height: 230px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: rgba(34, 13, 83, 0.4);
+  border-radius: 10px;
+  z-index: 1;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  position: relative;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+.iban {
+  line-height: 2rem;
+  padding: 0px 10px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font: 400 20px/1 "Rubik", sans-serif;
+}
+.visa_logo {
+  float: right;
+  padding: 10px;
+}
+
+.visa_logo img {
+  width: 70px;
+  height: 40px;
+}
+
+.visa_info img {
+  width: 60px;
+  height: 45px;
+}
+
+.visa_info p {
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.visa_info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  color: #ffffff;
+}
