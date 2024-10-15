@@ -2,7 +2,7 @@
 
 <h1> Demo </h1>
 
-<a href="https://bankas.tavobankas.lt/">Semrush</a>
+<h2><a href="https://bankas.tavobankas.lt/">Bankas</a></h2>
 
 Bank App to managers, add users, create accounts.
 
