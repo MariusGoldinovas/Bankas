@@ -10,50 +10,26 @@ These instructions will get you a copy of the project up and running on your loc
 
 The things you need before installing the software.
 
-- You need this
-- And you need this
-- Oh, and don't forget this
+- All you need is configured MongoDB
 
 ### Installation
 
 A step by step guide that will tell you how to get the development environment up and running.
 
 ```
-$ First step
-$ Another ste
-$ Final step
+$ git clone https://github.com/MariusGoldinovas/Bankas.git
+$ edit in /back-end/.env MONGO_UR, DEV_CLIENT_URL
+$ edit in /front-end/src/utils/config,js BASE_URL
+$ on back-end terminal run npm start
+$ on front-end terminal run npm run dev
 ```
 
 ## Usage
 
-A few examples of useful commands and/or tasks.
+User is created at first run so default login:
 
 ```
-$ First example
-$ Second example
-$ And keep this in mind
+$ email: marius@marius.lt
+$ password: marius
+
 ```
-
-## Deployment
-
-Additional notes on how to deploy this on a live or release system. Explaining the most important branches, what pipelines they trigger and how to update the database (if anything special).
-
-### Server
-
-- Live:
-- Release:
-- Development:
-
-### Branches
-
-- Master:
-- Feature:
-- Bugfix:
-- etc...
-
-## Additional Documentation and Acknowledgments
-
-- Project folder on server:
-- Confluence link:
-- Asana board:
-- etc...
