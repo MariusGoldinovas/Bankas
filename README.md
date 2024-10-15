@@ -1,8 +1,7 @@
 # Bank App
 
 
-<h2>Demo</h2>
-<h2><a href="https://bankas.tavobankas.lt/">https://bankas.tavobankas.lt/</a></h2>
+<h2>Demo</h2> <h2><a href="https://bankas.tavobankas.lt/">https://bankas.tavobankas.lt/</a></h2>
 
 # Login:
 ```
