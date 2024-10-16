@@ -1,2 +1,5 @@
-node_modules/
-idPhotos/
+
+/node_modules
+/idPhotos
+
+.env
